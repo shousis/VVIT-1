@@ -1,6 +1,6 @@
 # zadanie 1
 def read_file(type : int, num_line = 0):
-    with open('/Users/swampgod/Desktop/example.txt', 'r', encoding='utf-8') as file:
+    with open('/Users/shousis/Desktop/example.txt', 'r', encoding='utf-8') as file:
         if type == 1:
             content = file.read()
             return content
